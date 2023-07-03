@@ -1,47 +1,88 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(46, 37, 37);
     background-color: rgb(255, 255, 255);
     text-align: justify;
     margin: 0%;
-
 }
 
 #title {
     text-align: center;
-    border: 5px solid #000000;
+    border: px solid #534747;
     background-color:
-        #809135;
-    border-radius: 200px;
+        #f5f83a;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(12, 99, 4);
+    padding-top: 20px;
+    padding-bottom: 1px;
 }
-
-img {
+img{
     width: 400px;
 }
 
+
+
 .requisits {
-    color: black;
+    
     padding: 5%;
     text-align: justify;
+    
 }
-
-.passo-a-passo {
-
-    color: black;
-}
-
 .documentacao {
-
-    color: black;
     padding: 5%;
     text-align: justify;
 }
-header{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: center; 
+.obs{
+    padding: 2%;
+    font-size: 18px;
 }
-header img{
-    width: 300px;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding-left: 80px;
+
+}
+header h1{
+    padding-left: 100px;
+}
+
+header img {
+    width: 150px;
+    padding: 0%;
+    padding-right: 10px;
+}
+header h1{
+    padding: 0%;
+}
+p{
+    line-height: 30px;
+}
+a{
+    background-color: #ffffff;
+}
+#indentidade{
+    width: 100px;
+}
+#title h1{
+padding-left: 100px;
+}
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+}
+.obs p{
+    padding-left: 2px;
+    font-size: 15px;
+}
+.obs{
+    background-color: rgba(0, 0, 255, 0.418);
+    border-radius: 20px;
+    padding: 1px;
 }
