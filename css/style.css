@@ -3,54 +3,117 @@ body {
     color: rgb(46, 37, 37);
     background-color: rgb(255, 255, 255);
     text-align: justify;
-    margin: 0%;
+    margin: 0;
     align-items: center;
     text-align: center;
+
+}
+
+ul {
+    margin: 20px;
+}
+
+header a {
+    color: #504c4c;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+header a:hover {
+    transition: 0.3s;
+    color: #148eb3;
+    text-decoration: none;
+    margin-left: 10px;
+
+
 }
 
 #title {
     text-align: center;
     border: px solid #534747;
-    background-color:
-        #f5f83a;
+    background-color: #148eb3;
     border-radius: 100px;
     display: flex;
     flex-direction: row;
-    color: rgb(12, 99, 4);
+    color: rgb(255, 255, 255);
     padding-top: 20px;
     padding-bottom: 1px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
-img{
+
+img {
     width: 400px;
+    margin: 0px;
+    padding: 0;
 }
 
-
+#conteudo-doc {
+    width: 50%;
+}
 
 .requisits {
-    
     padding: 5%;
-    text-align: justify;
-    text-align: center;
-    
+    background-color: #148eb3;
+    display: flex;
+    margin-top: 40px;
+    color: #ffffff;
+
 }
+
+header h2 {
+    background-color: #148eb3;
+    font-size: 15px;
+    padding: .5rem;
+    line-height: 3.5rem;
+    border-radius: 100%;
+    color: #ffffff;
+}
+
+#img-doc {
+    width: 50%;
+    align-items: center;
+
+}
+
+#conteudo {
+    text-align: justify;
+    width: 50%;
+    text-align: left;
+}
+
+#img-requisits {
+    width: 50%;
+    align-items: center;
+
+}
+
 .documentacao {
+    margin-top: 100px;
     padding: 5%;
     text-align: justify;
+    background-color: #148eb3;
+    color: #ffffff;
+    display: flex;
 }
-.obs{
+
+.obs {
     padding: 2%;
     font-size: 18px;
 }
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
+
     padding-left: 80px;
 
 }
-header h1{
+
+header h1 {
     padding-left: 100px;
 }
 
@@ -59,33 +122,85 @@ header img {
     padding: 0%;
     padding-right: 10px;
 }
-header h1{
+
+header h1 {
     padding: 0%;
 }
-p{
+
+p {
     line-height: 30px;
 }
-a{
+
+a {
     background-color: #ffffff;
 }
-#indentidade{
+
+#indentidade {
     width: 100px;
 }
-#title h1{
-padding-left: 100px;
+
+#title h1 {
+    padding-left: 100px;
 }
-p{
+
+p {
     font-size: 20px;
 }
-li{
+
+li {
     font-size: 20px;
 }
-.obs p{
+
+.obs p {
     padding-left: 2px;
     font-size: 15px;
 }
-.obs{
+
+.obs {
     background-color: rgba(0, 0, 255, 0.418);
     border-radius: 20px;
     padding: 1px;
 }
+
+.botao {
+    padding: 20px;
+    background-color: #148eb3;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    
+  }
+  
+  
+  .checkbox {
+    display: none;
+  }
+  
+  .imagem-container {
+    display: none;
+  }
+  
+  .checkbox:checked ~ .imagem-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .checkbox:checked ~ .botao::after {
+    content: "Fechar Imagem";
+  }
+  .checkbox:not(:checked) ~ .botao::after {
+    content: "Visualizar Imagem";
+  }
+  
+  .passo-a-passo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #comando-botao{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
