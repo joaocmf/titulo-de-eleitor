@@ -164,10 +164,11 @@ li {
 
 .botao {
     padding: 20px;
-    background-color: #148eb3;
-    color: #fff;
+    background-color: #ffffff;
+    color:#148eb3;
     cursor: pointer;
     border-radius: 50px;
+    font-weight: 600;
     
   }
   
@@ -194,13 +195,31 @@ li {
   }
   
   .passo-a-passo{
+    padding-top: 40px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #148eb3;
+    padding-bottom: 40px;
+    color: #ffffff;
   }
 
   #comando-botao{
     width: 200px;
     display: flex;
     flex-direction: column;
+  }
+  .contatos{
+    padding-top: 2px;
+    padding-bottom: 50px;
+  }
+  .redes a{
+    color: #148eb3;
+    font-size: 30px;
+  }
+  .redes a:hover{
+    
+    transition: 0.5s;
+    font-size: 40px;
   }
